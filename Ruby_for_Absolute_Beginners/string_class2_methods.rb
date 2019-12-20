@@ -32,3 +32,16 @@ puts country.delete 'a'
 puts country.delete 'Da'
 country = 'United States'
 puts country.delete 'e'
+
+# replace
+
+county = 'Thomas'
+
+puts county.replace 'Hooker'
+
+# capitalize
+
+state = 'california'
+puts state.capitalize
+state = 'NEBRASKA'
+puts state.capitalize
