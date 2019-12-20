@@ -45,3 +45,22 @@ state = 'california'
 puts state.capitalize
 state = 'NEBRASKA'
 puts state.capitalize
+
+# reverse
+
+fruit = 'desserts'
+puts fruit.reverse
+
+# length
+
+song = 'This is my life'
+puts song.length
+
+song = '    Welcome to my life   '
+puts song.strip
+
+# gsub
+
+country = 'United Kingdom'
+
+puts country.gsub('Kingdom', 'States')
