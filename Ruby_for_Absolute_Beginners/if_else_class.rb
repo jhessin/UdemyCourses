@@ -35,21 +35,6 @@ else
   puts 'You failed the class'
 end
 
-case grade
-when 4.0
-  puts 'You are an awesome student!'
-when 3.5..4.0
-  puts 'You are an A student'
-when 3.0..3.5
-  puts 'You are a B student'
-when 2.0..3.0
-  puts 'You are a C student'
-when 1.5..2.0
-  puts 'You are a D student'
-else
-  puts 'You failed the class'
-end
-
 account_balance = 10_000_000
 age = 75
 
