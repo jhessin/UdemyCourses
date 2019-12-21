@@ -20,6 +20,8 @@ puts '------------'
   puts "Hello World - #{i}"
 end
 
-(0..10).each do |i|
-  puts "Value of i is: #{i}" if i > 2
+(3..10).each do |i|
+  puts "Value of i is: #{i}"
 end
+
+# for loot - to find even numbers from 1..10
