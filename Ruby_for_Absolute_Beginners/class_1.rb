@@ -3,33 +3,38 @@
 
 # Dog: A simple example of a class
 class Dog
+  @breed = ''
   def initialize(breed)
-    self.breed = breed
+    @breed = breed
   end
 
-  def name_of_dog
-    puts breed
+  def name_of_dog(name)
+    puts "I am #{name}"
   end
 
   def bark
-    puts "#{breed} is barking"
+    puts "#{@breed} is barking"
   end
 
   def eat
-    puts "#{breed} is eating"
+    puts "#{@breed} is eating"
   end
 
   def sleep
-    puts "#{breed} is sleeping"
+    puts "#{@breed} is sleeping"
   end
 
   def play
-    puts "#{breed} is playing"
+    puts "#{@breed} is playing"
   end
 end
 
 # Create an object from the class.
 
-jack = Dog.new 'Jack'
+corgi = Dog.new('corgi')
 
-jack.name_of_dog
+corgi.name_of_dog 'Jack'
+corgi.bark
+corgi.eat
+corgi.sleep
+corgi.play
